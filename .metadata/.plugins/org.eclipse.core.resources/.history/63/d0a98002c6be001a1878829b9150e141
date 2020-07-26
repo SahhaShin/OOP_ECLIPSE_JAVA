@@ -1,0 +1,37 @@
+package org.Practice14_2_2.eclipse;
+
+
+import java.util.HashSet;
+
+public class HashSetDemo {
+
+	static void removeFromHashSet(HashSet<String>list, String s) {
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		String[] s=new String[3];
+		
+		s[0]="zero";
+		s[1]="two";
+		s[2]="two";
+		
+		HashSet<String> array=new HashSet<>();
+		
+		for(String s_copy: s) {
+			array.add(s_copy);
+		}
+		
+		removeFromHashSet(array, s[1]);
+		
+		
+		for(String name : array)
+			System.out.println(name);
+
+
+	}
+
+}

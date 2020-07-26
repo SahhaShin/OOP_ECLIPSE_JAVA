@@ -1,0 +1,36 @@
+package org.Practice13_12.eclipse;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class CSVfIle {
+
+	public static void main(String[] args) {
+		
+		String fileName="haberman.csv";
+		
+		try {
+			Scanner inputStream=new Scanner(new File(fileName));
+			
+			int sum_1=0;
+			int sum_2=0;
+			int count_1=0;
+			int count_2=0;
+			
+			while(inputStream.hasNextLine()) {
+				String line=inputStream.nextLine();
+				String[] fields=line.split(",");
+				int auxiluary=Integer.parseInt(fields[2]);
+			}
+			
+			
+		}
+		catch(FileNotFoundException e) {
+			System.out.println("Error opening the file"+fileName);
+			System.exit(0);
+		}
+
+	}
+
+}

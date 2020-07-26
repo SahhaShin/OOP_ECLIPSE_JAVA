@@ -1,0 +1,31 @@
+package org.Practice14_2_3.eclipse;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+	public static LinkedList<String> change(String[] a){
+		LinkedList<String>list=new LinkedList<String>();
+		for(String some: a) {
+			list.add(some);
+			
+		}
+		return list;
+	}
+	
+	public static void removeFromLinkedList(LinkedList<String>list, String s) {
+		Iterator<String> start=list.listIterator();
+		
+		
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package org.LastPractice.eclipse;
+import java.util.Scanner;
+public class Ex2_1a {
+
+	public static void main(String[] args) {
+		System.out.println("Please Enter a 4-digit");
+		Scanner keyboard=new Scanner(System.in);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package org.Practice6_2_1.org;
+
+public class SuitPlay {
+
+	public static void main(String[] args) {
+		
+		Suit cardSuit = Suit.SPADES;
+		
+		
+		System.out.print("SPADES ordinal -> "+cardSuit.ordinal()+"\n");//3
+
+		System.out.println("\nSPADE&CLUBS equals -> "+cardSuit.equals(Suit.CLUBS)+"\n");//f
+		
+		System.out.print("SPADE&CLUBS compareTo -> "+cardSuit.compareTo(Suit.HEARTS)+"\n");//0
+
+		System.out.println("\nvalueOf -> "+Suit.valueOf("CLUBS")+"\n");//black
+
+		System.out.print("valueOf(cardSuit.toString) -> "+Suit.valueOf(cardSuit.toString())+"\n");//blank
+
+		System.out.print("\ngetColor -> "+cardSuit.getColor()+"\n");//black
+
+		System.out.print("\ntoString -> "+cardSuit.toString()+"\n");
+
+	}
+
+}

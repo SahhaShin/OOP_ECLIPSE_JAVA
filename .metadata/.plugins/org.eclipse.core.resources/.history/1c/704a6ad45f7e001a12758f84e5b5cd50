@@ -1,0 +1,17 @@
+package org.Practice3_2_1.eclipse;
+
+import java.util.Scanner;
+
+public class Ex3_2a {
+	
+	int num=0;
+	
+	Scanner keyboard=new Scanner(System.in);
+	
+	while(num>=0) {
+		num=keyboard.nextInt();
+	}
+	
+	
+
+}

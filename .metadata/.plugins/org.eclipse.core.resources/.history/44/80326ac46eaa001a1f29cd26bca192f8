@@ -1,0 +1,13 @@
+package org.Practice12_1_3.eclipse;
+
+public class CountDigitPlay {
+
+	public static void main(String[] args) {
+		System.out.println("create digit1...\n");
+		CountDigit digit1=new CountDigit();
+
+		System.out.print("Count Digit 010-3705-4036> ",digit1.countDigits("010-3705-4036"));
+
+	}
+
+}

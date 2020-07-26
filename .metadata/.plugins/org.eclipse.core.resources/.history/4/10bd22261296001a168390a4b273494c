@@ -1,0 +1,65 @@
+package org.Practice7_2_3.eclipse;
+
+public class PolynomialPlay {
+
+	public static void main(String[] args) {
+		System.out.println("Start Program...");
+		System.out.println("\nUser1 Enter max degree 3");
+		Polynomial poly1=new Polynomial();
+		
+		System.out.println("\nUser1 Enter i:0 / value:3");
+		poly1.setConstant(0, 3);
+		
+		System.out.println("\nUser1 Enter i:1 / value:5");
+		poly1.setConstant(1, 5);
+		
+		System.out.println("\nUser1 Enter i:2 / value:0");
+		poly1.setConstant(2, 0);
+		
+		System.out.println("\nUser1 Enter i:3 / value:2");
+		poly1.setConstant(3, 2);
+		
+		poly1.evaluate();
+		System.out.println("\n--------------------------\n\n");
+		
+		System.out.println("\nUser2 Enter max degree 4");
+		Polynomial poly2=new Polynomial(4);
+		
+		System.out.println("\nUser2 Enter i:0 / value:1");
+		poly2.setConstant(0, 1);
+		
+		System.out.println("\nUser2 Enter i:1 / value:2");
+		poly2.setConstant(1, 2);
+		
+		System.out.println("\nUser2 Enter i:2 / value:3");
+		poly2.setConstant(2, 3);
+		
+		System.out.println("\nUser2 Enter i:3 / value:4");
+		poly2.setConstant(3, 4);
+		
+		System.out.println("\nUser2 Enter i:4 / value:5");
+		poly2.setConstant(3, 5);
+		
+		poly2.evaluate();
+		System.out.println("\n--------------------------\n\n");
+		
+		
+		System.out.println("\nUser3 Enter max degree 2");
+		Polynomial poly3=new Polynomial(4);
+		
+		System.out.println("\nUser3 Enter i:0 / value:3");
+		poly3.setConstant(0, 3);
+		
+		System.out.println("\nUser3 Enter i:1 / value:2");
+		poly3.setConstant(1, 2);
+		
+		System.out.println("\nUser3 Enter i:2 / value:1");
+		poly3.setConstant(2, 1);
+		
+		
+		poly3.evaluate();
+		System.out.println("\n--------------------------\n\n");
+
+	}
+
+}

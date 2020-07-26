@@ -1,0 +1,9 @@
+package org.Practice12_1_3.eclipse;
+
+public class CountDigit {
+	
+	public void countDigits(String s) {
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package org.Practice14_1_1.eclipse;
+
+import java.util.ArrayList;
+
+
+public class ArrayListDemo {
+	
+	
+	
+	public void removeFromArrayList(ArrayList<String>list, String s) {
+	
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+		String[] aList=new String[]{"one","two","three"};
+		
+		
+		
+		
+
+	}
+
+	
+
+}

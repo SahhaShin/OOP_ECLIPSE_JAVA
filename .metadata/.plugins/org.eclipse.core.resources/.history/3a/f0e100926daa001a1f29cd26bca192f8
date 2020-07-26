@@ -1,0 +1,25 @@
+package org.Practice12_1_3.eclipse;
+
+public class CountDigit {
+	
+	int num;
+	
+	public int countDigits(String s) {
+		char a;
+		String s_copy;
+		for(int i=0;i<s.length();i++) {
+			a=s.charAt(i);
+			
+			if(('0'<=a&&a<='9')) {
+				num++;
+			}
+			else {
+				countDigits()
+			}
+		}
+		
+		
+		return num;
+	}
+
+}

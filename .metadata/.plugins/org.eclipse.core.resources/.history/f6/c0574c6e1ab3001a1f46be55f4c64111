@@ -1,0 +1,13 @@
+package org.Practice13_12.eclipse;
+
+public class CSVfIle {
+
+	public static void main(String[] args) {
+		
+		try {
+			Scanner inputStream=new Scanner(new File("haberman.csv"));
+		}
+
+	}
+
+}

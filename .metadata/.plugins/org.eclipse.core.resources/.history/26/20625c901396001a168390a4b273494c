@@ -1,0 +1,37 @@
+package org.Practice7_2_3.eclipse;
+
+import java.util.Scanner;
+
+public class Polynomial {
+	
+	private int degree;
+	private double[] coefficientes;
+	
+	//constructor
+	public void Polynomial(int max) {
+		this.degree=max;
+		for(int i=0;i<max+1;i++) {
+			coefficientes[i]=0;
+		}
+	}
+	
+	public void setConstant(int i, int value) {
+		
+		coefficientes[i]=value;
+		
+	}
+	
+	public void evaluate() {
+		System.out.println("P(x)= ");
+		for(int i=0;i<degree+1;i++) {
+		if(coefficientes[i]!=0) {
+			System.out.print(coefficientes[i]);
+			if(i==1)System.out.print("X");
+			if(i!=0||i!=1)System.out.print("X^"+i);
+			if(i!=degree)System.out.print(" + ");
+		}
+		System.out.println("\n");
+		}
+	}
+
+}

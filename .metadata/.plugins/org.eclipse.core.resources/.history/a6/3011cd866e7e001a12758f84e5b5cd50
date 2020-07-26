@@ -1,0 +1,40 @@
+package org.Practice.eclipse;
+
+import java.util.Scanner;
+
+public class Ex3_1b {
+
+	public static void main(String[] args) {
+		System.out.print("Please Enter check amount($): ");
+		
+		double check=0;
+		double charge=0;
+		Scanner keyboard=new Scanner(System.in);
+		
+		check=keyboard.nextDouble();
+		
+		
+		while(check<0) {
+			System.out.print("Please enter a number greater than zero: ");
+			check=keyboard.nextDouble();
+		}
+		
+		if(check<10) {
+			charge=1;
+		}
+		else if(check<100) {
+			charge=check*0.1;
+		}
+		else if(check<1000) {
+			charge=5+(check*0.05);
+		}
+		else {
+			charge=40+(check*0.01);
+		}
+		
+		System.out.println("check is "+check+" So, cashing charge is "+charge+", Total is "+(check-charge));
+
+	}
+
+	
+}
